@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 
 //Modules
 import { PagesModule } from './pages/pages.module';
+//Paginação
+import { NgxPaginationModule } from 'ngx-pagination';
 
 //Components
 @NgModule({
@@ -17,7 +19,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
